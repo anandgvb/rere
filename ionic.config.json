@@ -1,0 +1,7 @@
+{
+  "name": "RERE",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

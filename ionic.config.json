@@ -3,5 +3,8 @@
   "integrations": {
     "capacitor": {}
   },
+  "compilerOptions": {
+    "types": ["d3-shape"]
+  },
   "type": "angular"
 }

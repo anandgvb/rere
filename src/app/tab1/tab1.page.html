@@ -1,17 +1,40 @@
-<ion-header [translucent]="true">
+<ion-header style="background-color:#FFF0F7">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      RERE
     </ion-title>
+    <ion-badge style="background-color: antiquewhite; color:blueviolet; border-color: red;" slot="end">Buy Premium</ion-badge>    
+
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content style="background-color:#FFF0F7" [fullscreen]="true">
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-img style="width: 80%; padding-left: 18%;" src="../../assets/rere.png">
+  </ion-img>
+
+  <ion-list lines="none">
+    <ion-item>
+      <ion-label class="ion-text-center">Words of Affirmation</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label class="ion-text-center">Physical Touch</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label class="ion-text-center">Quality Time</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label class="ion-text-center">Acts Of Service</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label class="ion-text-center">Receiving Gifts</ion-label>
+    </ion-item>
+
+  </ion-list>
+  <div class="row">
+    <div class="col text-center">
+      <ion-button  color="danger" expand="block" (click)="goAnOtherPage()">Continue To Tasks</ion-button>
+    </div>
+  </div>
+  <!-- <div echarts [options]="chartOption" class="demo-chart"></div> -->
 </ion-content>
